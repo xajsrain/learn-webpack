@@ -1,17 +1,17 @@
-import "./assets/a.css";
-import "./assets/index.less";
-import "./a";
+import './assets/a.css'
+import './assets/index.less'
+import './a'
 new Promise((resolve, reject) => {
-  resolve("11111");
-});
+  resolve('11111')
+})
 
 async function name() {
-  console.log("async ????");
+  console.log('async ????')
 }
 
-name();
-import "./a";
-console.log(222);
+name()
+import './a'
+console.log(222)
 // class Person {
 //   constructor(name) {
 //     this.name = name;
